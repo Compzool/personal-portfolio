@@ -29,7 +29,7 @@ contactEmail.verify((error) => {
     console.log("Ready to Send");
   }
 });
-router.get('/',(req,res) => {
+router.get('',(req,res) => {
   res.json({"hello": "world"});
 });
 router.post("/contact", (req, res) => {
