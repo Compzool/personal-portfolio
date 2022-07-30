@@ -12,10 +12,10 @@ export const Footer = () => {
             <img src={logo} alt="Logo" />
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end" style={{paddingTop:20}}>
-            <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="Icon" /></a>
-              <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
+          <div className="social-icon">
+              <a href="https://www.linkedin.com/in/compengyassin" rel="noreferrer" target="_blank"><img src={navIcon1} alt="Linkedin" /></a>
+              <a href="https://www.github.com/Compzool" rel="noreferrer" target="_blank"><img src={navIcon2} alt="Github" /></a>
+              <a href="https://www.instagram.com/iamohammadyassin/" rel="noreferrer" target="_blank"><img src={navIcon3} alt="Instagram" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved</p>
           </Col>
